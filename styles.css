@@ -1,0 +1,38 @@
+div{
+  height:150px;
+  width: 150px;
+  margin: 0 auto;
+  border: 1px solid black;
+  float:left;
+  color: white;
+  transition: 1.5s;
+  transition-timing-function: ease-in;
+  background-image:url(http://unsplash.it/150/150/?random);
+  box-shadow: 15px 15px 5px rgba(0,0,0,.4);
+}
+div:hover{
+  height:175px;
+  width:175px;
+  transform: perspective(300px);
+  transition: 1.5s;
+  transition-timing-function: ease-in;
+  background-image:url(http://unsplash.it/175/175/?random)
+}
+span{
+  text-decoration: underline;
+}
+.blue{
+  background-color:#0000ff;
+}
+.blue:hover{
+  color:#0000ff;
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+.gold{
+  background-color:gold;
+}
